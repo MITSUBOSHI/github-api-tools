@@ -10,4 +10,4 @@ fi
 TOKEN=$1
 JSON="{\"name\": \"$2\", \"description\": \"$3\", \"private\": true}"
 
-curl -i -H "Authorization: token ${TOKEN}" -d "${JSON}" https://api.github.com/orgs/${ORG}/repos;
+curl -i -H "Authorization: token ${TOKEN}" -d "${JSON}" https://api.github.com/orgs/${ORG}/repos
